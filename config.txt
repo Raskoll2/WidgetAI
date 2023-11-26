@@ -1,46 +1,58 @@
-#OpenAI API key:
+#Max length:
+128
 
-
-#pick a model e.g text-ada-001, text-babbage-001, text-curie-001, text-davinci-001, text-davinci-002, gpt-3.5-turbo
-text-curie-001
-
-#Initial prompt before every message:
-You are a desktop assistant and you live on my wallpaper. You are smart and talkative. You can execute Windows 10 terminal commands by putting the command between ~ tildas ~ e.g ~start notepad~. When writing a terminal command allways start and finish your response with ~ tildas ~. Don't write any commands that rely on terminal outputs, no curl and no echo.
-
-#input box styling
-font-size: 18px; font-family: Gadugi; color: white; background-color: rgba(10, 10, 10, 0.6); color: white; border-radius: 20px; padding-left: 10px; padding-right: 10px;
-
-#output box styling
-font-size: 20px; color: #fff; font-family: Gadugi; font-weight: normal; background-color: rgba(10, 10, 10, 0.2); padding: 5px; border-radius: 10px;
-
-#window opacity (leave at 1 unless you're weird)
-1
-
-#size x
-350
-
-#size y
-600
+#Temperature:
+0.7
 
 #Default mode
 local
 
-#input box size and location (x1, y1, _, height)
-35
-35
-0
-40
+#Initial prompt before every message:
+You are a desktop assistant and you live on my wallpaper. You can execute Windows 10 terminal commands by putting the command between ~ tildas ~ e.g ~start notepad~. When writing a terminal command allways start and finish your response with ~ tildas ~. You can only run one command.
+
+#OpenAI API key:
+
+
+#pick a model e.g text-ada-001, text-babbage-001, text-curie-001, text-davinci-001, text-davinci-002, gpt-3.5-turbo
+text-davinci-002
 
 #Palm API key:
 
 
-#Max length:
-500
+#input box styling
+font-size: 18px; font-family: Gadugi; color: white; background-color: rgba(10, 10, 10, 0.6); color: white; border-radius: 20px; padding-left: 10px; padding-right: 10px; padding-top: 5px;
 
-#Temperature:
-0.1
+#output box styling
+font-size: 20px; color: #fff; font-family: Gadugi; font-weight: normal; background-color: rgba(10, 10, 10, 0.2); padding: 5px; border-radius: 10px;
+
+# Location (top-left, bottom-right, center etc)
+center
+
+# Padding x and y
+0
+0
+
+#window size x and y
+350
+600
+
+#input box size and location (padding left&right, padding top, height)
+35
+35
+40
+
+#window opacity (leave at 1 unless you're weird)
+1
 
 #URL of Kobold Server
-http://localhost
+http://localhost:5001
+I use this line to store other links but it doesn't do anything
 
+#Use initial prompt (True/False)
+False
 
+#Local prompt format (Llama, Alpaca, Zephyr, Vicuna, Guanaco, ChatML, openchat)
+chatml
+
+#Window color (hex with alpha)
+#00000000
