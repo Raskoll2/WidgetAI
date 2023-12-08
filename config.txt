@@ -1,46 +1,58 @@
-#OpenAI API key:
+# Max length:
+512
 
+# Temperature:
+0.55
 
-#pick a model e.g text-ada-001, text-babbage-001, text-curie-001, text-davinci-001, text-davinci-002, gpt-3.5-turbo
-text-curie-001
-
-#Initial prompt before every message:
-You are a desktop assistant and you live on my wallpaper. You are smart and talkative. You can execute Windows 10 terminal commands by putting the command between ~ tildas ~ e.g ~start notepad~. When writing a terminal command allways start and finish your response with ~ tildas ~. Don't write any commands that rely on terminal outputs, no curl and no echo.
-
-#input box styling
-font-size: 18px; font-family: Gadugi; color: white; background-color: rgba(10, 10, 10, 0.6); color: white; border-radius: 20px; padding-left: 10px; padding-right: 10px;
-
-#output box styling
-font-size: 20px; color: #fff; font-family: Gadugi; font-weight: normal; background-color: rgba(10, 10, 10, 0.2); padding: 5px; border-radius: 10px;
-
-#window opacity (leave at 1 unless you're weird)
-1
-
-#size x
-350
-
-#size y
-600
-
-#Default mode
+# Default mode
 local
 
-#input box size and location (x1, y1, _, height)
-35
-35
+# Initial prompt before every message:
+You are a desktop assistant and you live on my wallpaper. You are smart and talkative. You can execute Windows 10 terminal commands by putting the command between ~ tildas ~ e.g ~start notepad~. When writing a terminal command allways start and finish your response with ~ tildas ~. You can only run one command. My windows username is harpe (no r) and my desktop is in C:\Users\harpe\OneDrive\Desktop
+
+# OpenAI API key:
+change me
+
+# Pick a model e.g text-ada-001, text-babbage-001, text-curie-001, text-davinci-001, text-davinci-002, gpt-3.5-turbo
+text-curie-001
+
+# Palm API key:
+change me
+
+# Input box styling
+font-size: 14px; font-family: Gadugi; color: white; background-color: rgba(10, 10, 10, 0.6); color: white; border-radius: 20px; padding-left: 8px; padding-right: 8px; padding-top: 3px; padding-bottom: 0px;
+
+# Output box styling
+font-size: 16px; color: #fff; font-family: Gadugi; font-weight: normal; background-color: rgba(10, 10, 10, 0.2); padding: 5px; border-radius: 10px;
+
+# Location (top-left, bottom-right, center etc)
+bottom-right
+
+# Padding x and y
 0
+50
+
+# Window size x and y
+350
+600
+
+# Input box size and location (padding left&right, padding top, height)
+35
+35
 40
 
-#Palm API key:
+# Window opacity (leave at 1 unless you're weird)
+1
 
+# URL of Kobold Server
+http://localhost:5001
+http://localhost:5001 | other links | not used, just here so you can copy and paste them to swap easily
 
-#Max length:
-500
+# Use initial prompt (True/False)
+False
 
-#Temperature:
-0.1
+# Local prompt format (Llama, Alpaca, Zephyr, Vicuna, Guanaco, ChatML, openchat, story)
+story
 
-#URL of Kobold Server
-http://localhost
-
-
+# Window color (hex with alpha)
+#00000000
