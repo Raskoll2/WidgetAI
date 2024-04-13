@@ -263,7 +263,7 @@ font-family: Gadugi;}"""  # Customize button style
                  "max_context_length": 100000,
                  "max_length": max_length,
                  "top_p": 0.8,
-                 "stop_sequence": ["<", "\n\n\n", "### Instruction", "### Explanation", "### Tag", "### Context", "####", "User:", "Assistant:", "</s>", "<|", '</', 'Response:', 'emergency'],
+                 "stop_sequence": ["<", "\n\n\n", "### Instruction", "### Tag", "### Context", "####", "User:", "Assistant:", "</s>", "<|", '</', 'Response:'],
                  "rep_pen": 1.2,
                  "use_world_info": False,
                  "use_memory": False,
